@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:300,regular,500,500italic,600,700,800,900,900italic"
       rel="stylesheet"
@@ -37,10 +38,18 @@
           <div class="container">
             <div class="frame__row">
               <div class="frame__item">
-                <div class="frame__title">I’m a Header</div>
+                <div class="frame__title">
+                  I’m a <br />
+                  Header
+                </div>
                 <div class="frame__text">
                   This is a template landing page, created with Figma and Anima.
                   No coding involved.
+                </div>
+                <div class="frame__text-sm">
+                  Fresh ingredients slowly baked into our super delicious food.
+                  Available in a range of delicious flavors, delivered to your
+                  door.
                 </div>
                 <div class="frame__block">
                   <a
@@ -51,7 +60,16 @@
                   <a class="frame__btn-2" href="#">Ghost</a>
                 </div>
               </div>
-              <img class="frame-img" src="img/Image.jpg" alt="Квадрат" />
+              <div class="frame-img">
+                <picture>
+                  <source
+                    media="(max-width: 770px)"
+                    srcset="img/Image-mobile.png"
+                  />
+
+                  <img src="img/Image.jpg" alt="Квадрат" />
+                </picture>
+              </div>
             </div>
           </div>
         </section>
@@ -64,6 +82,14 @@
               <img class="logos__icon" src="icons/Amazon.svg" alt="" />
               <img class="logos__icon" src="icons/Google.svg" alt="" />
               <img class="logos__icon" src="icons/Walmart.svg" alt="" />
+            </div>
+            <div class="logos__row-sm">
+              <img class="logos__icon-sm" src="icons/Nestle-sm.svg" alt="" />
+              <img class="logos__icon-sm" src="icons/Apple-sm.svg" alt="" />
+              <img class="logos__icon-sm" src="icons/Beco-sm.svg" alt="" />
+              <img class="logos__icon-sm" src="icons/Amazon-sm.svg" alt="" />
+              <img class="logos__icon-sm" src="icons/Google-sm.svg" alt="" />
+              <img class="logos__icon-sm" src="icons/Walmart-sm.svg" alt="" />
             </div>
           </div>
         </section>
@@ -174,6 +200,22 @@
                 </div>
               </div>
             </div>
+            <div class="feedback__column column">
+              <div class="column__image">
+                <img src="img/Ell-sm.png" alt="mobile" />
+              </div>
+              <img
+                class="column__icon"
+                src="icons/Quote-icon.svg"
+                alt="quote"
+              />
+              <div class="column_words">
+                User quote User quote User quote User quote User quote User
+                quote User quote User quote User quote User quote User quote
+                User quote User quote User quote User quote User quote
+              </div>
+              <h4 class="column__name">Name</h4>
+            </div>
           </div>
         </section>
         <section class="page">
@@ -189,6 +231,9 @@
                 href="https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-lp-template&utm_medium=figma-samples"
                 >Contact Us</a
               >
+              <div class="page__img">
+                <img src="img/Image-cont.png" alt="Gray" />
+              </div>
             </div>
           </div>
         </section>
@@ -209,6 +254,11 @@
                     </div>
                     <div class="inbox__btn">Subscribe</div>
                   </div>
+                </div>
+                <div class="logo__item">
+                  <a class="logo-link" href="#">Item</a>
+                  <a class="logo-link" href="#">Item</a>
+                  <a class="logo-link" href="#">Item</a>
                 </div>
                 <div class="logo__company">
                   <div class="logo__row">
@@ -231,11 +281,11 @@
                     <div class="column2__text">Item</div>
                     <div class="column2__text">Item</div>
                   </div>
-                  <div class="story__column2 column2">
-                    <div class="column2__title">Title</div>
-                    <div class="column2__text">Item</div>
-                    <div class="column2__text">Item</div>
-                    <div class="column2__text">Item</div>
+                  <div class="story__column3 column3">
+                    <div class="column3__title">Title</div>
+                    <div class="column3__text">Item</div>
+                    <div class="column3__text">Item</div>
+                    <div class="column3__text">Item</div>
                   </div>
                 </div>
                 <div class="story__social">
